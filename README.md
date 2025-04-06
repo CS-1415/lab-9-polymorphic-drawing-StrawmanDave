@@ -36,7 +36,7 @@ Since we cannot include data in the shared interface, inheriting from a abstract
 Now, consider the following main driver that uses the library (if you are unfamiliar with the initialization block following a constructor call, just imagine the code in the curly braces after each constructor call as if it were being run in the constructor, however, note that you can only initialize public members in this way).
 
 Lab09.Main/SampleDrawing.cs
-using Lab08;
+using Lab09;
 
 List<IGraphic2D> shapes = new List<IGraphic2D> {
     new Circle(10, 10, 5) { BackgroundColor = ConsoleColor.DarkYellow, DisplayChar = ' ' },
