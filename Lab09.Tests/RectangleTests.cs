@@ -26,15 +26,17 @@ public class RectangleTests
         //Assert.AreEqual(5, rectangle.Width);
         Assert.That(rectangle.Height, Is.EqualTo(6));
         //Assert.AreEqual(6, rectangle.Height);
-    }/*
+    }
 
     [Test]
     public void CheckLowerBounds()
     {
         // lower bound is the smallest x that needs to be checked when drawing the shape
-        Assert.AreEqual(3, shape.LowerBoundX);
-        Assert.AreEqual(4, shape.LowerBoundY);
-    }
+        Assert.That(shape.LowerBoundX, Is.EqualTo(3));
+        //Assert.AreEqual(3, shape.LowerBoundX);
+        Assert.That(shape.LowerBoundY, Is.EqualTo(4));
+        //Assert.AreEqual(4, shape.LowerBoundY);
+    }/*
 
     [Test]
     public void CheckUpperBounds()

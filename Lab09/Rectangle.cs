@@ -7,9 +7,9 @@ public class Rectangle : AbstractGraphic2D
     public decimal Width;
     public decimal Height;
 
-    public override decimal LowerBoundX => - 1;
+    public override decimal LowerBoundX => Left;
     public override decimal UpperBoundX => + 1;
-    public override decimal LowerBoundY => - 1;
+    public override decimal LowerBoundY => Top;
     public override decimal UpperBoundY => + 1;
 
     public Rectangle(decimal left, decimal top, decimal width, decimal height)
