@@ -30,13 +30,13 @@ public class CircleTests
     [Test]
     public void HasCorrectBoundingBox()
     {
-        Assert.That(shape.LowerBoundX, Is.EqualTo(8-2));
+        Assert.That(shape.LowerBoundX, Is.EqualTo(8 - 2));
         //Assert.AreEqual(8 - 2, shape.LowerBoundX);
-        Assert.That(shape.LowerBoundY, Is.EqualTo(10 -2));
+        Assert.That(shape.LowerBoundY, Is.EqualTo(10 - 2));
         //Assert.AreEqual(10 - 2, shape.LowerBoundY);
         Assert.That(shape.UpperBoundX, Is.EqualTo(8 + 2));
         //Assert.AreEqual(8 + 2, shape.UpperBoundX);
-        Assert.That(shape.UpperBoundY, Is.EqualTo(10+2));
+        Assert.That(shape.UpperBoundY, Is.EqualTo(10 + 2));
         //Assert.AreEqual(10 + 2, shape.UpperBoundY);
     }
 
@@ -44,24 +44,34 @@ public class CircleTests
     public void CenterIsIncluded()
     {
         Debug.Assert(shape.ContainsPoint(8, 10));
+        //Assert.IsTrue(shape.ContainsPoint(8, 10));
     }
 
     [Test]
     public void ContainsAllFourPointsOfTheCompass()
     {
         Debug.Assert(shape.ContainsPoint(8 - 2, 10));
+        //Assert.IsTrue(shape.ContainsPoint(8 - 2,10));
         Debug.Assert(shape.ContainsPoint(8 + 2, 10));
+        //Assert.IsTrue(shape.ContiansPoint(8 + 2, 10));
         Debug.Assert(shape.ContainsPoint(8, 10 - 2));
+        //Assert.IsTrue(shape.ContainsPoint(8,10 - 2));
         Debug.Assert(shape.ContainsPoint(8, 10 + 2));
-    }/*
+        //Assert.IsTrue(shape.ContainsPoint(8, 10 +2));
+    }
 
     [Test]
     public void ShouldNotContainFourCorners()
     {
-        Assert.IsFalse(shape.ContainsPoint(8 - 2, 10 - 2));
-        Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 - 2));
-        Assert.IsFalse(shape.ContainsPoint(8 - 2, 10 + 2));
-        Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
+        Debug.Assert(!shape.ContainsPoint(8 - 2, 10 - 2));
+        //Assert.IsFalse(shape.ContainsPoint(8 - 2, 10 - 2));
+        Debug.Assert(!shape.ContainsPoint(8 + 2, 10 - 2));
+        //Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 - 2));
+        Debug.Assert(!shape.ContainsPoint(8 - 2, 10 + 2));
+        //Assert.IsFalse(shape.ContainsPoint(8 - 2, 10 + 2));
+        Debug.Assert(!shape.ContainsPoint(8 + 2, 10 + 2));
+        //Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
     }
+    /*
     */
 }
