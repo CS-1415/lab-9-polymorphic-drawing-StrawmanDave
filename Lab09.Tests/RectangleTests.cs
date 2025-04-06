@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using NUnit.Framework;
 
 namespace Lab09.Tests;
@@ -46,13 +47,14 @@ public class RectangleTests
         //Assert.AreEqual(3 + 5, shape.UpperBoundX);
         Assert.That(shape.UpperBoundY, Is.EqualTo(4 + 6));
         //Assert.AreEqual(4 + 6, shape.UpperBoundY);
-    }/*
+    }
 
     [Test]
     public void MiddleOfShapeIsIncluded()
     {
-        Assert.IsTrue(shape.ContainsPoint(5.5m, 7));
-    }
+        Debug.Assert(shape.ContainsPoint(5.5m, 7));
+        //Assert.IsTrue(shape.ContainsPoint(5.5m, 7));
+    }/*
 
     [Test]
     public void CornersIncluded()

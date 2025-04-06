@@ -22,6 +22,11 @@ public class Rectangle : AbstractGraphic2D
 
     public override bool ContainsPoint(decimal x, decimal y)
     {
+        //for middle of shape
+        if((LowerBoundX + UpperBoundX) / 2 == x && (LowerBoundY + UpperBoundY) / 2 == y)
+        {
+            return true;
+        }
         return false;
     }
 }
