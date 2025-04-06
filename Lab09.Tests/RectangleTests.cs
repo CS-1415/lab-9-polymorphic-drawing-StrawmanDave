@@ -1,6 +1,4 @@
 using System.Diagnostics;
-using NUnit.Framework;
-
 namespace Lab09.Tests;
 
 public class RectangleTests

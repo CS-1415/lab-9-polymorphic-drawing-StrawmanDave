@@ -22,9 +22,7 @@ public class Rectangle : AbstractGraphic2D
 
     public override bool ContainsPoint(decimal x, decimal y)
     {
-        //for outside of corners not included
         
-
         //for corrners of the shape
         if(Left == x && Top == y)
         {

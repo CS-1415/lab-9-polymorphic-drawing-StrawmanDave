@@ -1,5 +1,3 @@
-using System.Data.Common;
-
 namespace Lab09;
 
 public class Circle : AbstractGraphic2D
