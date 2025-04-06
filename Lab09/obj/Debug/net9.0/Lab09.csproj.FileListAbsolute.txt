@@ -1,0 +1,12 @@
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\bin\Debug\net9.0\Lab09.deps.json
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\bin\Debug\net9.0\Lab09.dll
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\bin\Debug\net9.0\Lab09.pdb
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.AssemblyInfoInputs.cache
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.AssemblyInfo.cs
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.csproj.CoreCompileInputs.cache
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.sourcelink.json
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.dll
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\refint\Lab09.dll
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\Lab09.pdb
+C:\Users\HumbleIcarus\Documents\Programming 1410-1415\lab-9-polymorphic-drawing-StrawmanDave\Lab09\obj\Debug\net9.0\ref\Lab09.dll

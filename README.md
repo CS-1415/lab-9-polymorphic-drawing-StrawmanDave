@@ -59,7 +59,7 @@ To understand how the library should work, read the following tests that will ne
 Lab09.Tests/CircleTests.cs
 using NUnit.Framework;
 
-namespace Lab08.Tests;
+namespace Lab09.Tests;
 
 public class CircleTests
 {
@@ -121,7 +121,7 @@ public class CircleTests
 Lab09.Tests/RectangleTests.cs
 using NUnit.Framework;
 
-namespace Lab08.Tests;
+namespace Lab09.Tests;
 
 public class RectangleTests
 {
@@ -201,20 +201,20 @@ Note: Step 3 has already been completed in the starter code. These steps can be 
 
 Navigate to your repository folder in the VS Code terminal.
 Create the following three projects:
-dotnet new classlib -o Lab08
-dotnet new nunit -o Lab08.Tests
-dotnet new console -o Lab08.Main
+dotnet new classlib -o Lab09
+dotnet new nunit -o Lab09.Tests
+dotnet new console -o Lab09.Main
 Add references to the tests and main driver from the libary:
-dotnet add Lab06.Tests reference Lab08
-dotnet add Lab06.Main reference Lab08
+dotnet add Lab09.Tests reference Lab09
+dotnet add Lab09.Main reference Lab09
 Create a solution pointing to all three projects:
 dotnet new sln
-dotnet sln add Lab08 Lab08.Tests Lab08.Main
+dotnet sln add Lab09 Lab09.Tests Lab09.Main
 The sample test should run and pass:
 dotnet test
 Step 4: Read and Add the Starter Code to the Appropriate Files
-Lab08/IGraphic2D.cs
-namespace Lab08;
+Lab09/IGraphic2D.cs
+namespace Lab09;
 
 // Represents a graphical element (i.e. a shape) that can be printed to the
 // console.
@@ -227,7 +227,7 @@ public interface IGraphic2D
 }
 
 Lab09/AbstractGraphic2D.cs
-namespace Lab08;
+namespace Lab09;
 
 // Implements the display char and color properties.
 public abstract class AbstractGraphic2D : IGraphic2D
@@ -306,7 +306,7 @@ Step 5: Create Stubs for Circle and Rectangle Classes
 Put each in its own .cs file. Here is an example for Circle
 
 Lab09/Circle.cs
-namespace Lab08;
+namespace Lab09;
 
 public class Circle : AbstractGraphic2D
 {
@@ -338,7 +338,7 @@ NOTE Remember that (0,0) is the top left corner. So as the x value gets bigger, 
 
 If there are more commented-out tests, return to (2).
 
-Once all tests are passing, uncomment the contents of the main driver and use dotnet run --project Lab08.Main to run the sample drawing. (Make sure that it looks as you would expect.)
+Once all tests are passing, uncomment the contents of the main driver and use dotnet run --project Lab09.Main to run the sample drawing. (Make sure that it looks as you would expect.)
 
 (optional) Create your own drawing with the library. (Consider that you can use loops and math to create more interesting drawings.)
 
