@@ -68,15 +68,17 @@ public class RectangleTests
         // Assert.IsTrue(shape.ContainsPoint(3, 10));
         Debug.Assert(shape.ContainsPoint(8,10));
         // Assert.IsTrue(shape.ContainsPoint(8, 10));
-    }/*
+    }
 
     [Test]
     public void OutsideOfCornersNotIncludedInShape()
-    {
-        Assert.IsFalse(shape.ContainsPoint(3 - 0.1m, 4));
-        Assert.IsFalse(shape.ContainsPoint(8, 4 - 0.1m));
-        Assert.IsFalse(shape.ContainsPoint(3, 10 + 0.1m));
-        Assert.IsFalse(shape.ContainsPoint(8 + 0.1m, 10));
+    {   Debug.Assert(!shape.ContainsPoint(3 - 0.1m, 4));
+        // Assert.IsFalse(shape.ContainsPoint(3 - 0.1m, 4));
+        Debug.Assert(!shape.ContainsPoint(8, 4 - 0.1m));
+        // Assert.IsFalse(shape.ContainsPoint(8, 4 - 0.1m));
+        Debug.Assert(!shape.ContainsPoint(3, 10 + 0.1m));
+        // Assert.IsFalse(shape.ContainsPoint(3, 10 + 0.1m));
+        Debug.Assert(!shape.ContainsPoint(8 + 0.1m, 10));
+        // Assert.IsFalse(shape.ContainsPoint(8 + 0.1m, 10));
     }
-    */
 }
