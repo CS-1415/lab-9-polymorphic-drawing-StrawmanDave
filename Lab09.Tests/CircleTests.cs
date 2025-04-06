@@ -1,4 +1,4 @@
-using NUnit.Framework.Legacy;
+using System.Diagnostics;
 namespace Lab09.Tests;
 
 public class CircleTests
@@ -38,13 +38,13 @@ public class CircleTests
         //Assert.AreEqual(8 + 2, shape.UpperBoundX);
         Assert.That(shape.UpperBoundY, Is.EqualTo(10+2));
         //Assert.AreEqual(10 + 2, shape.UpperBoundY);
-    }/*
+    }
 
     [Test]
     public void CenterIsIncluded()
     {
-        Assert.IsTrue(shape.ContainsPoint(8, 10));
-    }
+        Debug.Assert(shape.ContainsPoint(8, 10));
+    }/*
 
     [Test]
     public void ContainsAllFourPointsOfTheCompass()
