@@ -72,6 +72,4 @@ public class CircleTests
         Debug.Assert(!shape.ContainsPoint(8 + 2, 10 + 2));
         //Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
     }
-    /*
-    */
 }

@@ -7,19 +7,18 @@ public class Circle : AbstractGraphic2D
     public decimal CenterX;
     public decimal CenterY;
     public decimal Radius;
+    
+    public override decimal LowerBoundX => CenterX - 2;
+    public override decimal UpperBoundX => CenterX + 2;
+    public override decimal LowerBoundY => CenterY - 2;
+    public override decimal UpperBoundY => CenterY + 2;
+
     public Circle(decimal x, decimal y, decimal radius)
     {
         CenterX = x;
         CenterY = y;
         Radius = radius;
     }
-    public override decimal LowerBoundX => CenterX - 2;
-
-    public override decimal UpperBoundX => CenterX + 2;
-
-    public override decimal LowerBoundY => CenterY - 2;
-
-    public override decimal UpperBoundY => CenterY + 2;
 
     public override bool ContainsPoint(decimal x, decimal y)
     {
@@ -40,10 +39,10 @@ public class Circle : AbstractGraphic2D
         {
             return false;
         }
-        
+
         //For all points of the compass
         if(LowerBoundX == x && CenterY == y)
-        {
+        { 
             return true;
         }
         if(UpperBoundX == x && CenterY == y)

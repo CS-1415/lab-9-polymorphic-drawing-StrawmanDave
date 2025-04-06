@@ -3,7 +3,7 @@ using NUnit.Framework;
 namespace Lab09.Tests;
 
 public class RectangleTests
-{/*
+{
 
     Rectangle rectangle;
     AbstractGraphic2D shape;
@@ -13,16 +13,20 @@ public class RectangleTests
     {
         rectangle = new Rectangle(3, 4, 5, 6);
         shape = rectangle;
-    
+    }
 
     [Test]
     public void EnsurePropertiesAreCorrect()
     {
-        Assert.AreEqual(3, rectangle.Left);
-        Assert.AreEqual(4, rectangle.Top);
-        Assert.AreEqual(5, rectangle.Width);
-        Assert.AreEqual(6, rectangle.Height);
-    }
+        Assert.That(rectangle.Left, Is.EqualTo(3));
+        //Assert.AreEqual(3, rectangle.Left);
+        Assert.That(rectangle.Top, Is.EqualTo(4));
+        //Assert.AreEqual(4, rectangle.Top);
+        Assert.That(rectangle.Width, Is.EqualTo(5));
+        //Assert.AreEqual(5, rectangle.Width);
+        Assert.That(rectangle.Height, Is.EqualTo(6));
+        //Assert.AreEqual(6, rectangle.Height);
+    }/*
 
     [Test]
     public void CheckLowerBounds()
