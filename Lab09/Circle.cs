@@ -27,6 +27,26 @@ public class Circle : AbstractGraphic2D
         {
             return true;
         }
+
+        if(LowerBoundX == x && CenterY == y)
+        {
+            return true;
+        }
+
+        if(UpperBoundX == x && CenterY == y)
+        {
+            return true;
+        }
+
+        if(CenterX == x && LowerBoundY == y)
+        {
+            return true;
+        }
+
+        if(CenterX == x && UpperBoundY == y)
+        {
+            return true;
+        }
         return false;
     }
 }

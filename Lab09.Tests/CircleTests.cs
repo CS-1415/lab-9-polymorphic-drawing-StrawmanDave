@@ -44,16 +44,16 @@ public class CircleTests
     public void CenterIsIncluded()
     {
         Debug.Assert(shape.ContainsPoint(8, 10));
-    }/*
+    }
 
     [Test]
     public void ContainsAllFourPointsOfTheCompass()
     {
-        Assert.IsTrue(shape.ContainsPoint(8 - 2, 10));
-        Assert.IsTrue(shape.ContainsPoint(8 + 2, 10));
-        Assert.IsTrue(shape.ContainsPoint(8, 10 - 2));
-        Assert.IsTrue(shape.ContainsPoint(8, 10 + 2));
-    }
+        Debug.Assert(shape.ContainsPoint(8 - 2, 10));
+        Debug.Assert(shape.ContainsPoint(8 + 2, 10));
+        Debug.Assert(shape.ContainsPoint(8, 10 - 2));
+        Debug.Assert(shape.ContainsPoint(8, 10 + 2));
+    }/*
 
     [Test]
     public void ShouldNotContainFourCorners()
