@@ -1,12 +1,10 @@
 using System.Diagnostics;
-using Microsoft.VisualStudio.TestPlatform.ObjectModel.Utilities;
 using NUnit.Framework;
 
 namespace Lab09.Tests;
 
 public class RectangleTests
 {
-
     Rectangle rectangle;
     AbstractGraphic2D shape;
 
