@@ -20,18 +20,25 @@ public class CircleTests
     public void CircleHasCorrectDimensions()
     {
         Assert.That(circle.CenterX, Is.EqualTo(8));
+        //Assert.AreEqual(8, circle.CenterX);
         Assert.That(circle.CenterY, Is.EqualTo(10));
+        //Assert.AreEqual(10, circle.CenterY);
         Assert.That(circle.Radius, Is.EqualTo(2));
-    }/*
+        //Assert.AreEqual(2, circle.Radius);
+    }
 
     [Test]
     public void HasCorrectBoundingBox()
     {
-        Assert.AreEqual(8 - 2, shape.LowerBoundX);
-        Assert.AreEqual(10 - 2, shape.LowerBoundY);
-        Assert.AreEqual(8 + 2, shape.UpperBoundX);
-        Assert.AreEqual(10 + 2, shape.UpperBoundY);
-    }
+        Assert.That(shape.LowerBoundX, Is.EqualTo(8-2));
+        //Assert.AreEqual(8 - 2, shape.LowerBoundX);
+        Assert.That(shape.LowerBoundY, Is.EqualTo(10 -2));
+        //Assert.AreEqual(10 - 2, shape.LowerBoundY);
+        Assert.That(shape.UpperBoundX, Is.EqualTo(8 + 2));
+        //Assert.AreEqual(8 + 2, shape.UpperBoundX);
+        Assert.That(shape.UpperBoundY, Is.EqualTo(10+2));
+        //Assert.AreEqual(10 + 2, shape.UpperBoundY);
+    }/*
 
     [Test]
     public void CenterIsIncluded()
