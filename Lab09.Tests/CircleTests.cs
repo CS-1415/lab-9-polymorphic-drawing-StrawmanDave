@@ -1,7 +1,6 @@
-﻿using NUnit.Framework;
-
+using NUnit.Framework.Legacy;
 namespace Lab09.Tests;
-/*
+
 public class CircleTests
 {
     Circle circle;
@@ -20,10 +19,10 @@ public class CircleTests
     [Test]
     public void CircleHasCorrectDimensions()
     {
-        Assert.AreEqual(8, circle.CenterX);
-        Assert.AreEqual(10, circle.CenterY);
-        Assert.AreEqual(2, circle.Radius);
-    }
+        Assert.That(circle.CenterX, Is.EqualTo(8));
+        Assert.That(circle.CenterY, Is.EqualTo(10));
+        Assert.That(circle.Radius, Is.EqualTo(2));
+    }/*
 
     [Test]
     public void HasCorrectBoundingBox()
@@ -57,5 +56,5 @@ public class CircleTests
         Assert.IsFalse(shape.ContainsPoint(8 - 2, 10 + 2));
         Assert.IsFalse(shape.ContainsPoint(8 + 2, 10 + 2));
     }
+    */
 }
-*/

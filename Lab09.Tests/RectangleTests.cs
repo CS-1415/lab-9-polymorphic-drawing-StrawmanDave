@@ -1,9 +1,10 @@
 using NUnit.Framework;
 
 namespace Lab09.Tests;
-/*
+
 public class RectangleTests
-{
+{/*
+
     Rectangle rectangle;
     AbstractGraphic2D shape;
 
@@ -12,7 +13,7 @@ public class RectangleTests
     {
         rectangle = new Rectangle(3, 4, 5, 6);
         shape = rectangle;
-    }
+    
 
     [Test]
     public void EnsurePropertiesAreCorrect()
@@ -62,5 +63,5 @@ public class RectangleTests
         Assert.IsFalse(shape.ContainsPoint(3, 10 + 0.1m));
         Assert.IsFalse(shape.ContainsPoint(8 + 0.1m, 10));
     }
+    */
 }
-*/
