@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\Lab09.Main\\Lab09.Main.csproj": {}
+    "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\lab09.Main\\Lab09.Main.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\Lab09.Main\\Lab09.Main.csproj": {
+    "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\lab09.Main\\Lab09.Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\Lab09.Main\\Lab09.Main.csproj",
+        "projectUniqueName": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\lab09.Main\\Lab09.Main.csproj",
         "projectName": "Lab09.Main",
-        "projectPath": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\Lab09.Main\\Lab09.Main.csproj",
+        "projectPath": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\lab09.Main\\Lab09.Main.csproj",
         "packagesPath": "C:\\Users\\HumbleIcarus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\Lab09.Main\\obj\\",
+        "outputPath": "C:\\Users\\HumbleIcarus\\Documents\\Programming 1410-1415\\lab-9-polymorphic-drawing-StrawmanDave\\lab09.Main\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HumbleIcarus\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

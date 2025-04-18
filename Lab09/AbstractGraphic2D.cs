@@ -8,10 +8,10 @@ public abstract class AbstractGraphic2D : IGraphic2D
     public abstract bool ContainsPoint(decimal x, decimal y);
 
     // the following indicate a (possibly loose) bounding box for the element
-    public abstract decimal LowerBoundX { get; }
-    public abstract decimal UpperBoundX { get; }
-    public abstract decimal LowerBoundY { get; }
-    public abstract decimal UpperBoundY { get; }
+    public abstract decimal LowerBoundX { get; protected set;}
+    public abstract decimal UpperBoundX { get; protected set;}
+    public abstract decimal LowerBoundY { get; protected set;}
+    public abstract decimal UpperBoundY { get; protected set;}
 
     // the character to be displayed on cells within the image
     public char DisplayChar { get; set; }
@@ -33,7 +33,7 @@ public abstract class AbstractGraphic2D : IGraphic2D
         }
         if (skippedSome)
         {
-            Console.WriteLine("warning: some cells skipped because  of too small buffer");
+            Console.WriteLine("warning: some cells skipped because of too small buffer");
         }
     }
 
